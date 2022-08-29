@@ -102,7 +102,13 @@ img {
   color: var(--primery-accent-color);
 }
 /* Contacts */
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .contact-link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -130,6 +136,8 @@ img {
 /* Hero section */
 .hero-section {
   padding-bottom: 200px;
+  padding-top: 200px;
+
   background: #2f303a;
   margin-top: 0;
   margin-bottom: 0;
@@ -140,7 +148,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  padding-top: 200px;
+
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -214,9 +222,11 @@ img {
   text-transform: uppercase;
 }
 .benefits-desc {
-  width: 270px;
   font-size: 14px;
   line-height: calc(24 / 14);
+}
+.benefits-list-item {
+  width: 270px;
 }
 .benefits-list .benefits-list-item:not(:last-child) {
   margin-right: 30px;
@@ -249,8 +259,14 @@ img {
   line-height: calc(42 / 36);
   text-align: center;
 }
-.team-img {
-  margin-bottom: 30px;
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   margin-bottom: 10px;
@@ -262,7 +278,6 @@ img {
   text-align: center;
 }
 .team-desc {
-  margin-bottom: 30px;
   line-height: calc(19 / 16);
   text-align: center;
 }
@@ -277,7 +292,8 @@ img {
   align-items: center;
 }
 /* Portfolio */
-.filter-section {
+
+.filter-list {
   margin-bottom: 34px;
 }
 .filter-list {
@@ -288,6 +304,8 @@ img {
   margin-left: 8px;
 }
 .potfolio-title {
+  margin-bottom: 4px;
+
   color: var(--primery-title-color);
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -307,20 +325,19 @@ img {
   padding: 20px 24px;
   border-left: 1px solid #ececec;
   border-right: 1px solid #ececec;
-  border-bottom:1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 /* Footer */
 footer {
-  background-color: #2f303a;
-}
-.logo-bottom {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
 .footer-logo-color {
   color: var(--primery-white-color);
 }
-.adress-item {
+.logo-bottom {
+  display: block;
   margin-top: 20px;
 }
 .adress-link {
