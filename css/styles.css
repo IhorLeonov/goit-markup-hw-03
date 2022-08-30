@@ -338,7 +338,13 @@ footer {
 }
 .logo-bottom {
   display: block;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  color: var(--primery-accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
 }
 .adress-link {
   color: var(--primery-white-color);
