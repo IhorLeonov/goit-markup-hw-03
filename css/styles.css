@@ -339,7 +339,7 @@ footer {
 .logo-bottom {
   display: block;
   margin-bottom: 20px;
-  
+
   color: var(--primery-accent-color);
   font-family: 'Raleway';
   font-weight: 700;
@@ -358,9 +358,6 @@ footer {
 .adress-link:focus {
   color: var(--primery-accent-color);
 }
-.contact-adress-item {
-  margin-top: 9px;
-}
 .contact-adress-link {
   font-style: normal;
   font-weight: 400;
@@ -371,4 +368,10 @@ footer {
 .contact-adress-link:hover,
 .contact-adress-link:focus {
   color: var(--primery-accent-color);
+}
+.contact-adress-list > li {
+  margin-bottom: 9px;
+}
+.contact-adress-list > li:last-child {
+  margin-bottom: 0px;
 }
